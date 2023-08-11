@@ -1,0 +1,22 @@
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 2px;
+}
+.nombre{
+    margin-left: -287px;
+    margin-top: 22px;
+}
+.buscar{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 85px;
+    height: 24px;
+    margin-top: 20px;
+    border-color:solid pink;
+    
+}

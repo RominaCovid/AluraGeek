@@ -1,0 +1,26 @@
+.banner h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-90%,-50%);
+
+}
+.banner h4{
+    position: absolute;
+    margin-top: 50px;
+    left: 54%;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-90%,-1%);
+}
+
+.banner input{
+    position: absolute;
+    margin-top: 80px;
+    left: 9%;
+    top: 50%;
+    transform: translate(-90%,-1%);
+}
