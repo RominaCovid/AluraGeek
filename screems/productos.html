@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="../css/cabecera/cabecera.css">
-    <link rel="stylesheet" href="../css/login/login.css">
-    <link rel="stylesheet" href="../css/footer/footer.css">    
-    <title>Login</title>    
+    <link rel="stylesheet" href="../css/footer/footer.css"> 
+    <link rel="stylesheet" href="../css/agregar-producto/agregar_producto.css"> 
+    <title>Productos</title>
+
 </head>
 <body>
     <header class="cabecera">                              
@@ -16,22 +17,15 @@
           <input type="text" placeholder="Buscar...">
           <img src="../img/lupa.png" alt="lupa">
         </div>
+        <button class="btn__volver"><a class="link__volver" href="/screems/index.html">Volver</a></button>
     </header>
 
+    <section class="lista__producto">
+        <p class="titulo">Todos los Productos</p>
+        <button class="btn__agregar__producto">Agregar Producto</button>
 
-    <section class="contenedor_form_login">
-        <div class="titulo__login">
-         <h1>Iniciar Sesión</h1>
-        </div>       
-        <form  class="form__login" action="">
-            <input class="input__login" type="text" placeholder="Ingrese su correo" required>
-            <input class="input__login" type="text" placeholder="Ingrese su contraseña" required>
-            <button class="boton__login" type="submit">Entrar</button>
-        </form>  
-       
     </section>
-
-
+    
     <section class="pie">
         <img class="logo__pie" src="../img/logo.jpeg" alt="logo">
         <p class="nombre__pie">Sahumerios Lidia</p>    
@@ -50,11 +44,11 @@
                 <input class="input__mensaje" type="text" placeholder="Escriba su mensaje">
                 <button class="boton__form" type="submit"> Enviar mensaje</button>
             </form>
-        </div>
+        </div>         
+
     </section>
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
-    </footer>  
-    
+    </footer>   
 </body>
 </html>

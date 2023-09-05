@@ -1,0 +1,32 @@
+.lista__producto{
+    background-color:#e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.titulo{
+    margin: 1rem 1rem;
+}
+.btn__volver{
+    background-color: #ce8540;
+    color:#eaeee5;
+    border: none;
+    width: 85px;
+    height: 24px;
+    margin-top: 20px;
+}
+.link__volver{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+.btn__agregar__producto{
+    background-color: #ce8540;
+    color:#eaeee5;
+    border: none;
+    width: 100px;
+    height: 35px;
+    margin: 1rem 1rem;
+}
