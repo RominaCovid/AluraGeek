@@ -36,9 +36,12 @@
     height: 1.8rem;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: -70px;
-    
-
+    margin-left: -70px;  
+}
+.link_btn_menu_admin{
+    outline: none;
+    text-decoration: none;
+    color: white;
 }
 .boton_agregar_producto{
     width: 25.5rem;

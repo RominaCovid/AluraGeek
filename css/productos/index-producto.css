@@ -8,6 +8,11 @@
     justify-content: space-around;
     margin-right: -46rem;   
 }
+.link__login{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
 .ver__todos{
     padding: 0.1rem 0.5rem;
 }
