@@ -1,0 +1,23 @@
+.producto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -32rem;
+}
+.head__productos{
+    display: flex;
+    justify-content: space-around;
+    margin-right: -46rem;   
+}
+.ver__todos{
+    padding: 0.1rem 0.5rem;
+}
+.flecha{
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.5rem;    
+}
+.titulo__producto{
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.5rem;  
+    margin-left: -22rem;
+}

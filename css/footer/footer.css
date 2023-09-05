@@ -1,0 +1,65 @@
+.pie{
+    background-color: #e1b1bc;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.logo__pie{
+    width: 6rem;
+    height: 6rem;
+    padding-top: 2rem;
+}
+.nombre__pie{
+    padding-top: 2rem;
+    margin-left: -18rem;
+   
+}
+.lista__pie{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 1.2rem;   
+      
+}
+.item__lista{
+    list-style: none;  
+    margin-bottom: 0.5rem; 
+    margin-left: -13rem; 
+}
+.link__pie{
+    outline: none;
+    text-decoration: none;
+    color:black;
+}
+
+.div__pie{
+    padding-top: 1rem;
+}
+.contenedor__form{
+    display: flex;
+    flex-direction: column;  
+}
+.input__nombre{
+   height: 1.8rem;
+   margin-bottom: 1rem;
+   margin-left: -8rem;
+   width: 18rem ;
+   border: none;
+}
+.input__mensaje{
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    margin-left: -8rem; 
+    border: none;
+}
+.boton__form{
+    background-color: #ce8540;
+    color:#eaeee5;
+    border: none;
+    margin-left: -8rem; 
+    height: 1.8rem;
+    margin-bottom: 2rem;
+    width: 8rem;  
+}
+.autor{
+    background-color: white;
+}
