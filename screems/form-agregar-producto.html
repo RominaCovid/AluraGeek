@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="../css/cabecera/cabecera.css">
     <link rel="stylesheet" href="../css/footer/footer.css"> 
-    <link rel="stylesheet" href="../css/productos/agregar_producto.css"> 
-    <title>Productos</title>
-
+    <link rel="stylesheet" href="../css/productos/form-agregar-producto.css">
+    <title>Agregar Producto</title>
 </head>
 <body>
     <header class="cabecera">                              
@@ -17,15 +16,23 @@
           <input type="text" placeholder="Buscar...">
           <img src="../img/lupa.png" alt="lupa">
         </div>
-        <button class="btn__volver"><a class="link__volver" href="/screems/index.html">Volver</a></button>
+        <button class="btn_menu_admin">Menu Administrador</button>
     </header>
 
-    <section class="lista__producto">
-        <p class="titulo">Todos los Productos</p>
-        <button class="btn__agregar__producto"><a  href="../screems/form-agregar-producto.html">Agregar Producto</a></button>
-
+    <section class="contenedor_form_agregar_producto">
+        <div class="titulo_agregar_producto">
+         <h1>Agregar nuevo producto</h1>
+        </div>       
+        <form  class="form_agregar_producto" action="">
+            <input class="input_agregar_producto" type="text" placeholder="URL de imagen" required>
+            <input class="input_agregar_producto" type="text" placeholder="Categoria" required>
+            <input class="input_agregar_producto" type="text" placeholder="Nombre del producto" required>
+            <input class="input_agregar_producto" type="text" placeholder="Precio del producto" required>
+            <input class="input_agregar_producto" type="text" placeholder="Descripción del producto" required>
+            <button class="boton_agregar_producto" type="submit">Agregar producto</button>
+        </form>  
+       
     </section>
-    
     <section class="pie">
         <img class="logo__pie" src="../img/logo.jpeg" alt="logo">
         <p class="nombre__pie">Sahumerios Lidia</p>    
@@ -44,11 +51,12 @@
                 <input class="input__mensaje" type="text" placeholder="Escriba su mensaje">
                 <button class="boton__form" type="submit"> Enviar mensaje</button>
             </form>
-        </div>         
-
+        </div>
     </section>
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
-    </footer>   
+    </footer>  
+
+    
 </body>
 </html>

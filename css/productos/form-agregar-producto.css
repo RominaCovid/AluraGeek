@@ -1,0 +1,50 @@
+.contenedor_form_agregar_producto{
+    display: flex; 
+    background-color:#e5e5e5 ;  
+    margin-top: 2rem;  
+
+}
+.titulo_agregar_producto{
+    margin-bottom: 2rem; 
+    margin-left: 45%;
+    height:1.2rem;  
+    transform: translate(-25%,35%); 
+
+}
+.form_agregar_producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: -23.8rem;
+
+}
+.input_agregar_producto{
+    margin: 0.5rem 0;
+    height: 2.5rem;
+    width: 25rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn_menu_admin{
+    width: 10rem;
+    background-color: #ce8540;
+    color:#eaeee5;
+    border: none;
+    height: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -70px;
+    
+
+}
+.boton_agregar_producto{
+    width: 25.5rem;
+    background-color: #ce8540;
+    color:#eaeee5;
+    border: none;
+    height: 1.8rem;
+
+}
