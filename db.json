@@ -1,10 +1,12 @@
 {
-    "producto":[
-        {
-            "name":"Palo Santo con Champa",
-            "imagenUrl": "./img/LINEA PALO SANTO/PALO CN CHAMPA.PNG",
-            "id": 1,
-            "descripsion": ""
-        }
-    ]
+  "producto": [
+    {
+      "imagenUrl": "./img/PALO_CN_CHAMPA.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Champa",
+      "precio": "$650",
+      "desc": "sahumerio",
+      "id": 1
+    }
+  ]
 }

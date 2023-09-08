@@ -1,13 +1,14 @@
+//escribe en el archivo db.json
 const listaProductos = () =>{
     return fetch("http://localhost:3000/producto")
     .then (respuesta => respuesta.json())
     .catch(error=>console.log("error"))
 };
-const crearProducto = (name,imagenUrl,precio)=>{
+const crearProducto = (imagenUrl,cat,name,precio,desc)=>{
     return fetch("http://localhost:3000/producto",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
-        body: JSON.stringify({name,imagenUrl,precio,})
+        body: JSON.stringify({imagenUrl,cat,name,precio,desc})
     })
     .then (respuesta=>{
         if(respuesta.ok){
@@ -20,5 +21,5 @@ const crearProducto = (name,imagenUrl,precio)=>{
 
 export const productoServices={
     listaProductos,
-    crearProducto
+    crearProducto,
 };
