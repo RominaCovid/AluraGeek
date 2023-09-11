@@ -1,6 +1,7 @@
 .contenedor__producto{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .card_producto{
     display: flex;
@@ -8,7 +9,6 @@
     border-color:red;
     border-style: solid;
     margin-left:1rem;
-    margin-bottom: 5rem;
 }
 .card_name_producto{
     padding: 0.1rem 0;

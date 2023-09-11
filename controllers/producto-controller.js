@@ -2,15 +2,18 @@ import { productoServices } from "../services/producto-servicio.js";
 
 const nuevoProducto = (imagenUrl,name,precio,desc,id) => {
     const card = document.createElement("div");
-    const contenido = `<div class="card_producto" 
-                        <img arc="${imagenUrl}" alt="imagen">
+    const contenido = `
+                        <div class="card_producto" 
+                        <img src="${imagenUrl}" alt="imagen">
                         <h5 class="card_name_producto">${name}</h5>
                         <p class="card_precio_producto">${precio}</p>
                         <p class="card_descripcion_producto">${desc}</p>
+                        <p class="card_descripcion_producto">${id}</p>
                         <a class="card_ver_producto" href="../screems/productos.html?id=${id}">Ver Producto</a> 
-                        </div>`;
-    card.innerHTML = contenido;  
-    console.log(imagenUrl);
+                        </div>
+    
+                       `;
+    card.innerHTML = contenido;      
     return card;                  
 };
 
@@ -21,7 +24,8 @@ const render = async () =>{
                             listaProductos.forEach(e => {
                                 productos.appendChild(
                                   nuevoProducto(e.imagenUrl,e.name,e.precio,e.desc,e.id));
-                                
+                                  console.log(e.imagenUrl);
+                                                                 
                             });
                           }catch (error){console.log(error);
                             }  

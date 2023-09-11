@@ -9,10 +9,12 @@ const crearProducto = (imagenUrl,cat,name,precio,desc)=>{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body: JSON.stringify({imagenUrl,cat,name,precio,desc})
+        
     })
     .then (respuesta=>{
         if(respuesta.ok){
             return respuesta.body
+            console.log(respuesta.body)
         }
         throw new Error ("No se pudo crear producto")
     });
