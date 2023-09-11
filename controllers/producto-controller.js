@@ -10,8 +10,7 @@ const nuevoProducto = (imagenUrl,name,precio,desc,id) => {
                         <p class="card_descripcion_producto">${desc}</p>
                         <p class="card_descripcion_producto">${id}</p>
                         <a class="card_ver_producto" href="../screems/productos.html?id=${id}">Ver Producto</a> 
-                        </div>
-    
+                        </div>    
                        `;
     card.innerHTML = contenido;      
     return card;                  
