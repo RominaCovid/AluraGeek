@@ -5,11 +5,25 @@
 }
 .card_producto{
     display: flex;
-    flex-direction: column;
-    border-color:red;
-    border-style: solid;
+    flex-direction: column;    
     margin-left:1rem;
+  
 }
-.card_name_producto{
-    padding: 0.1rem 0;
+.card_producto:hover{
+    box-shadow: -1px -11px 39px 0px rgba(181,23,23,0.58);
+    -webkit-box-shadow: -1px -11px 39px 0px rgba(181,23,23,0.58);
+    -moz-box-shadow: -1px -11px 39px 0px rgba(181,23,23,0.58);
+}
+.card_font{    
+    margin: 0.2rem 0.3rem;
+    font-family: 'Englebert', sans-serif;
+}
+.card_ver_producto{
+    text-decoration: none;
+    margin: 0.2rem 0.3rem;
+    text-align: center;
+}
+.card_ver_producto:hover {
+    background-color: rgb(207, 137, 90);
+    color:wheat;
 }
