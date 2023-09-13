@@ -1,7 +1,6 @@
 .contenedor__producto{
     display: flex;
-    flex-wrap: wrap;
-    
+      
 }
 .card_producto{
     display: flex;

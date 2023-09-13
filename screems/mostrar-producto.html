@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="../css/productos/agregar_producto.css"> 
     <link rel="stylesheet" href="../css/productos/card-producto.css">
     <link rel="icon" href="../img/logo.jpeg">
-    <title>Lista de Productos</title>
-
+    <title>Producto</title>
 </head>
 <body>
     <header class="cabecera">                              
@@ -25,17 +24,21 @@
         <button class="btn__volver"><a class="link" href="/screems/index.html">Volver</a></button>
     </header>
 
-    <section class="lista__producto" data-producto>
-        <p class="titulo">Todos los Productos</p>
-        <button class="btn__agregar__producto"><a class="link" href="../screems/form-agregar-producto.html">Agregar Producto</a></button>
-        <div>
-           <img  width="12px" height="12px" src="../img/edit.svg" alt="editar">
-            <img  width="12px" height="12px" src="../img/eliminate.png" alt="editar">
-        </div>
+    <section class="contenedor__producto">
+        <div class="card_producto"> 
+                                         
+            <img src="" alt="imagen" data-imagen>
+            <h5 class="card_font" data-name></h5>
+            <p class="card_font" data-precio></p>
+            <p class="card_font" data-desc></p> 
+        </div>    
         
-    </section>
+
   
-    
+    </section>
+
+
+
     <section class="pie">
         <img class="logo__pie" src="../img/logo.jpeg" alt="logo">
         <p class="nombre__pie">Sahumerios Lidia</p>    
@@ -60,6 +63,6 @@
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
     </footer> 
-    
+    <script type="module" src="../controllers/ver-producto-controller.js"></script>
 </body>
 </html>
