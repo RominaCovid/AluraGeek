@@ -1,38 +1,6 @@
 {
   "producto": [
     {
-      "imagenUrl": "../img/sahumerio/champa.png",
-      "cat": "sahumerio",
-      "name": "Palo Santo con Champa",
-      "precio": "$650",
-      "desc": "sahumerio",
-      "id": 1
-    },
-    {
-      "imagenUrl": "../img/sahumerio/palo-copal.png",
-      "cat": "sahumerio",
-      "name": "Palo Santo con Copal",
-      "precio": "$780",
-      "desc": "Palo Santo con Copal es",
-      "id": 2
-    },
-    {
-      "imagenUrl": "../img/sahumerio/palo-inciencio.png",
-      "cat": "sahumerio",
-      "name": "Palo Santo con Inciencio",
-      "precio": "$780",
-      "desc": "Palo Santo con Inciencio es para",
-      "id": 3
-    },
-    {
-      "imagenUrl": "../img/sahumerio/palo-jazmin.png",
-      "cat": "sahumerio",
-      "name": "Palo Santo con Jazmin",
-      "precio": "$780",
-      "desc": "Palo Santo con Jazmín es ",
-      "id": 4
-    },
-    {
       "imagenUrl": "../img/bombitas/7-poderes.png",
       "cat": "bombitas",
       "name": "Bombas de los 7 Poderes",
@@ -47,7 +15,6 @@
       "precio": "$850",
       "desc": "bombitas",
       "id": 6
-
     },
     {
       "imagenUrl": "../img/bombitas/incienso.png",
@@ -56,7 +23,6 @@
       "precio": "$850",
       "desc": "bombitas",
       "id": 7
-
     },
     {
       "imagenUrl": "../img/diverso/calendula.png",
