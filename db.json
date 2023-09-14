@@ -1,12 +1,86 @@
 {
   "producto": [
     {
-      "imagenUrl":"../img/palo-inciencio.png",
-      "cat":"sahumerio",
-      "name":"Palo Santo con Champa",
-      "precio":"$650",
-      "desc":"sahumerio",
-      "id":1
+      "imagenUrl": "../img/sahumerio/champa.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Champa",
+      "precio": "$650",
+      "desc": "sahumerio",
+      "id": 1
+    },
+    {
+      "imagenUrl": "../img/sahumerio/palo-copal.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Copal",
+      "precio": "$780",
+      "desc": "Palo Santo con Copal es",
+      "id": 2
+    },
+    {
+      "imagenUrl": "../img/sahumerio/palo-inciencio.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Inciencio",
+      "precio": "$780",
+      "desc": "Palo Santo con Inciencio es para",
+      "id": 3
+    },
+    {
+      "imagenUrl": "../img/sahumerio/palo-jazmin.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Jazmin",
+      "precio": "$780",
+      "desc": "Palo Santo con Jazmín es ",
+      "id": 4
+    },
+    {
+      "imagenUrl": "../img/bombitas/7-poderes.png",
+      "cat": "bombitas",
+      "name": "Bombas de los 7 Poderes",
+      "precio": "$850",
+      "desc": "bombitas",
+      "id": 5
+    },
+    {
+      "imagenUrl": "../img/bombitas/cintronela-naranja.png",
+      "cat": "bombitas",
+      "name": "Bombas de Cintronela y Naranja",
+      "precio": "$850",
+      "desc": "bombitas",
+      "id": 6
+
+    },
+    {
+      "imagenUrl": "../img/bombitas/incienso.png",
+      "cat": "bombitas",
+      "name": "Bombas de Incienso",
+      "precio": "$850",
+      "desc": "bombitas",
+      "id": 7
+
+    },
+    {
+      "imagenUrl": "../img/diverso/calendula.png",
+      "cat": "diverso",
+      "name": "Hiervas de Calendula",
+      "precio": "$650",
+      "desc": "Hiervas de Caléndula es para ahumar el ambiente",
+      "id": 8
+    },
+    {
+      "imagenUrl": "../img/diverso/carbon-defumador.png",
+      "cat": "diverso",
+      "name": "Carbon Defumador",
+      "precio": "$650",
+      "desc": "Carbon defumador para",
+      "id": 9
+    },
+    {
+      "imagenUrl": "../img/diverso/oleum-equilibrio.png",
+      "cat": "diverso",
+      "name": "Oleum Equilibrio",
+      "precio": "$650",
+      "desc": "El oleum equilibrio es lo mejor para ",
+      "id": 10
     }
   ]
 }

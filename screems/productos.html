@@ -22,19 +22,15 @@
           <input type="text" placeholder="Buscar...">
           <img src="../img/lupa.png" alt="lupa">
         </div>
-        <button class="btn__volver"><a class="link" href="/screems/index.html">Volver</a></button>
+        <button class="btn__volver"><a class="link" href="/screems/index.html">Inicio</a></button>
     </header>
 
-    <section class="lista__producto" data-producto>
+    <section class="lista__producto">
         <p class="titulo">Todos los Productos</p>
-        <button class="btn__agregar__producto"><a class="link" href="../screems/form-agregar-producto.html">Agregar Producto</a></button>
-        <div>
-           <img  width="12px" height="12px" src="../img/edit.svg" alt="editar">
-            <img  width="12px" height="12px" src="../img/eliminate.png" alt="editar">
-        </div>
-        
+        <button class="btn__agregar__producto"><a class="link" href="../screems/form-agregar-producto.html">Agregar Producto</a></button>     
     </section>
-  
+    <section class="muestra__productos"  data-producto>
+    </section>  
     
     <section class="pie">
         <img class="logo__pie" src="../img/logo.jpeg" alt="logo">
@@ -60,6 +56,7 @@
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
     </footer> 
+    <script type="module" src="../controllers/listar-productos-controller.js"></script>
     
 </body>
 </html>

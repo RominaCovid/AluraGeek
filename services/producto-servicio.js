@@ -28,12 +28,12 @@ const eliminarProducto = (id) => {
 };
 
 //Para buscar un Producto
-  const buscarProducto = (id)=>{
+const buscarProducto = (id)=>{
       return fetch(`http://localhost:3000/producto/${id}`)
          .then((respuesta)=> respuesta.json());
 }; 
-  
-   
+
+
 
 
 
@@ -43,4 +43,5 @@ export const productoServices={
     crearProducto,
     eliminarProducto,
     buscarProducto,
+    
 };

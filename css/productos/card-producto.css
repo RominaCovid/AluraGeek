@@ -1,11 +1,12 @@
 .contenedor__producto{
     display: flex;
+    margin-bottom: 2rem;
       
 }
 .card_producto{
     display: flex;
     flex-direction: column;    
-    margin-left:1rem;
+    margin-left:1.5rem;
   
 }
 .card_producto:hover{
@@ -26,3 +27,14 @@
     background-color: rgb(207, 137, 90);
     color:wheat;
 }
+.card_vista_producto{
+   display: flex;
+   align-items: center;
+   margin-left: 400px; 
+   padding-left: 20px;
+   width: 500px;
+   box-shadow: 7px 18px 30px -3px rgba(0,0,0,0.7); 
+   border-radius: 20px;
+  
+}
+
