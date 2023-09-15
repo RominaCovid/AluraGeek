@@ -8,10 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="../css/cabecera/cabecera.css">
     <link rel="stylesheet" href="../css/footer/footer.css"> 
-    <link rel="stylesheet" href="../css/productos/agregar_producto.css"> 
-    <link rel="stylesheet" href="../css/productos/card-producto.css">
-    <link rel="stylesheet" href="../css/productos/listar_producto.css">
-
+    <link rel="stylesheet" href="../css/productos/form-agregar-producto.css">
     <link rel="icon" href="../img/logo.jpeg">
     <title>Sahumerios Lidia</title>
 </head>
@@ -23,22 +20,22 @@
           <input type="text" placeholder="Buscar...">
           <img src="../img/lupa.png" alt="lupa">
         </div>
-        <button class="btn__volver"><a class="link" href="/screems/index.html">Inicio</a></button>
+        <button class="btn_menu_admin"><a class="link_btn_menu_admin" href="../screems/productos.html">Menu Administrador</a></button>
     </header>
-
-    <br class="contenedor__producto">
-        <div class="card_vista_producto">                                          
-            <img  src="" alt="imagen" data-imagen>
-            <div>
-                <h5 class="card_font"  data-name></h5></br>
-                <p class="card_font " data-precio></p></br>
-                <p class="card_font " data-desc></p> 
-
-            </div>
-           
-        </div>      
+    <section class="contenedor_form_agregar_producto">
+        <div class="titulo_agregar_producto">
+         <h1>Editar Producto</h1>
+        </div>       
+        <form  class="form_agregar_producto" action="" data-form>
+            <input class="input_agregar_producto" type="text" placeholder="URL de imagen" data-imagen>
+            <input class="input_agregar_producto" type="text" placeholder="Categoria"  data-cat >
+            <input class="input_agregar_producto" type="text" placeholder="Nombre del producto" required data-name>
+            <input class="input_agregar_producto" type="text" placeholder="Precio del producto" required data-precio>
+            <input class="input_agregar_producto" type="text" placeholder="Descripción del producto"  data-desc>
+            <button class="boton_agregar_producto" type="submit">Editar producto</button>
+        </form>  
+       
     </section>
-
     <section class="pie">
         <img class="logo__pie" src="../img/logo.jpeg" alt="logo">
         <p class="nombre__pie">Sahumerios Lidia</p>    
@@ -57,12 +54,11 @@
                 <input class="input__mensaje" type="text" placeholder="Escriba su mensaje">
                 <button class="boton__form" type="submit"> Enviar mensaje</button>
             </form>
-        </div>         
-
+        </div>
     </section>
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
-    </footer> 
-    <script type="module" src="../controllers/ver-producto-controller.js"></script>
+    </footer>  
+    <script type="module" src="../controllers/editar-producto-controller.js"></script>
 </body>
 </html>

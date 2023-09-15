@@ -33,15 +33,30 @@ const buscarProducto = (id)=>{
          .then((respuesta)=> respuesta.json());
 }; 
 
+const editarProducto = (id)=>{
+    return fetch (`http://localhost:3000/producto/${id}`)
+      .then((respuesta) => respuesta.json());
+};
 
+const actualizarProducto = (imagenUrl,cat,name,precio,desc,id)=>{
+    return fetch (`http://localhost:3000/producto/${id}`,{
+        method:"PUT",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({imagenUrl,cat,name,precio,desc})
+    });
+};
 
-
-
+const validarUsuario =()=>{
+    return fetch ("http://localhost:3000/usuario")
+     .then ((respuesta)=> respuesta.json());
+};
 
 export const productoServices={
     listaProductos,
     crearProducto,
     eliminarProducto,
     buscarProducto,
-    
+    editarProducto,
+    actualizarProducto,
+    validarUsuario,
 };

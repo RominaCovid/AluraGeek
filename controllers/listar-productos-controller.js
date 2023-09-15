@@ -5,7 +5,7 @@ const nuevoProducto = (imagenUrl,name,precio,id) => {
     const contenido = `
                         <div class="card_producto_mostrado"> 
                         <div class="edit_eliminar">
-                        <a href=""><img  width="12px" height="12px" src="../img/edit.svg" alt="editar"></a>
+                        <a href="../screems/form-editar-producto.html?id=${id}"><img  width="12px" height="12px" src="../img/edit.svg" alt="editar"></a>
                         <a id="${id}" data-eliminar><img  width="12px" height="12px" src="../img/eliminate.png" alt="editar"></a>
                         </div>                                                                    
                         <img src="${imagenUrl}" alt="imagen">

@@ -13,7 +13,7 @@
       "cat": "bombitas",
       "name": "Bombas de Cintronela y Naranja",
       "precio": "$850",
-      "desc": "bombitas",
+      "desc": "Repela los mosquitos. Y da tranquilidad combatiendo el stress ",
       "id": 6
     },
     {
@@ -48,5 +48,10 @@
       "desc": "El oleum equilibrio es lo mejor para ",
       "id": 10
     }
-  ]
+  ],
+  "usuario":{
+     "email":"alura@gmail.com",
+     "contrasenia":"alura",
+     "id":1
+  }
 }

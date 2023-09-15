@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="../css/cabecera/cabecera.css">
     <link rel="stylesheet" href="../css/login/login.css">
-    <link rel="stylesheet" href="../css/footer/footer.css">    
-    <title>Login</title>    
+    <link rel="stylesheet" href="../css/footer/footer.css">  
+    <link rel="icon" href="../img/logo.jpeg">  
+    <title>Sahumerios Lidia</title>    
 </head>
 <body>
     <header class="cabecera">                              
@@ -23,10 +24,10 @@
         <div class="titulo__login">
          <h1>Iniciar Sesión</h1>
         </div>       
-        <form  class="form__login" action="">
-            <input class="input__login" type="text" placeholder="Ingrese su correo" required>
-            <input class="input__login" type="text" placeholder="Ingrese su contraseña" required>
-            <button class="boton__login" type="submit">Entrar</button>
+        <form  class="form__login" action="../screems/productos.html" data-form>
+            <input class="input__login" type="email" placeholder="Ingrese su correo" required data-email>
+            <input class="input__login" type="text" placeholder="Ingrese su contraseña" required data-contrasenia>
+            <button class="boton__login" type="submit"  data-btn>Entrar</button>
         </form>  
        
     </section>
@@ -55,6 +56,6 @@
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
     </footer>  
-    
+    <script type="module" src="../controllers/login-controller.js"></script>
 </body>
 </html>
