@@ -17,7 +17,7 @@ const nuevoProducto = (imagenUrl,name,precio,id) => {
 const seccionSahumerio = document.querySelector("[data-sahumerio]");
 //Agregar en seccion Sahumerio
 const productosSahumerio = () =>{
- return fetch("http://localhost:3000/producto?cat=sahumerio")
+ return fetch("https://alura-geek-sahumerios-92qkpbtls-rominacovid.vercel.app/producto?cat=sahumerio")
    .then(respuesta=> respuesta.json())
    .catch (error=>console.log("error"));
  
