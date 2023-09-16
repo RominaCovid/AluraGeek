@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="../css/cabecera/cabecera.css">
-    <link rel="stylesheet" href="../css/login/login.css">
-    <link rel="stylesheet" href="../css/footer/footer.css">  
-    <link rel="icon" href="../img/logo.jpeg">  
-    <title>Sahumerios Lidia</title>    
+    <link rel="stylesheet" href="../css/footer/footer.css"> 
+    <link rel="stylesheet" href="../css/productos/listar_producto.css"> 
+    <link rel="stylesheet" href="../css/productos/card-producto.css">
+    <link rel="icon" href="../img/logo.jpeg">
+    <title>Sahumerios Lidia</title>
 </head>
 <body>
     <header class="cabecera">                              
@@ -17,22 +21,11 @@
           <input type="text" placeholder="Buscar...">
           <img src="../img/lupa.png" alt="lupa">
         </div>
+        <button class="btn__volver"><a class="link" href="/screems/index.html">Inicio</a></button>
     </header>
+    <section class="contenedor__producto" data-categoria>
 
-
-    <section class="contenedor_form_login">
-        <div class="titulo__login">
-         <h1>Iniciar Sesión</h1>
-        </div>       
-        <form  class="form__login" action="../screems/productos.html" data-form>
-            <input class="input__login" type="email" placeholder="Ingrese su correo" required data-email>
-            <input class="input__login" type="text" placeholder="Ingrese su contraseña" required pattern="^[ a-zA-Z0-9]{1,8}$" data-contrasenia>
-            <button class="boton__login" type="submit"  data-btn>Entrar</button>
-        </form>  
-       
     </section>
-
-
     <section class="pie">
         <img class="logo__pie" src="../img/logo.jpeg" alt="logo">
         <p class="nombre__pie">Sahumerios Lidia</p>    
@@ -47,15 +40,17 @@
         <div class="div__pie" >
             <p style=" margin-left: -8rem; ">Hable con nosotros</p>
             <form class="contenedor__form" action="">
-                <input class="input__nombre" type="text" placeholder="Nombre" pattern="^[ a-zA-Z0-9]$">
-                <input class="input__mensaje" type="text" placeholder="Escriba su mensaje" pattern="^[ a-zA-Z0-9]$">
+                <input class="input__nombre" type="text" placeholder="Nombre">
+                <input class="input__mensaje" type="text" placeholder="Escriba su mensaje">
                 <button class="boton__form" type="submit"> Enviar mensaje</button>
             </form>
-        </div>
+        </div>         
+
     </section>
     <footer>    
         <p style="text-align: center;" class="">Desarrollado por Retamoso Romina - 2023</p>
-    </footer>  
-    <script type="module" src="../controllers/login-controller.js"></script>
+    </footer> 
+    <script type="module" src="../controllers/promocion-producto-controller.js"></script>
+    
 </body>
 </html>

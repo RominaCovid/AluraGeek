@@ -51,6 +51,13 @@ const validarUsuario =()=>{
      .then ((respuesta)=> respuesta.json());
 };
 
+const productosPromocion = ()=>{
+    return fetch ("http://localhost:3000/promocion")
+    .then ((respuesta)=> respuesta.json());
+
+};
+
+
 export const productoServices={
     listaProductos,
     crearProducto,
@@ -59,4 +66,6 @@ export const productoServices={
     editarProducto,
     actualizarProducto,
     validarUsuario,
+    productosPromocion,
+       
 };

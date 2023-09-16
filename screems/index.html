@@ -20,7 +20,7 @@
         <img class="logo" src="../img/logo.jpeg" alt="logo">
         <p class="nombre">Sahumerios Lidia</p>          
         <div class="buscar">
-          <input type="text" placeholder="Buscar...">
+          <input type="text" placeholder="Buscar..." data-buscar>
           <a href=""><img src="../img/lupa.png" alt="lupa"></a>
         </div>
         <button class="btn"><a class="link__login" href="./login.html">Login</a></button>
@@ -28,15 +28,15 @@
     <section class="banner">
         <img class="banner__imagen"  src="../img/banner.png" alt="banner">
         <h2>Agosto Promocional</h2>
-        <h4>Productos selecionados con 33% de descuento</h4>
-        <input class="btn__producto" type="button" value="Ver Productos"/>        
+        <h4>Productos selecionados con 34% de descuento</h4>
+        <a href="../screems/promocion-productos.html"><input class="btn__producto" type="button" value="Ver Productos"/></a>    
     </section>
 
     <section class="producto ">
         <h2 class="titulo__producto">Sahumerios</h2> 
         <div class="head__productos">
             <p class="ver__todos">Ver Todos</p>
-            <a href="#"><img class="flecha" src="../img/flecha.png" alt="flecha"></a>
+            <a  href="../screems/ver-cat-producto.html?cat=sahumerio" data-sahumrio><img class="flecha" src="../img/flecha.png" alt="flecha"></a>
         </div>        
     </section>
     <section class="contenedor__producto" data-sahumerio>        
@@ -47,7 +47,7 @@
         <h2 class="titulo__producto">Bombitas</h2> 
         <div class="head__productos">
             <p class="ver__todos">Ver Todos</p>
-            <a href="#"><img class="flecha" src="../img/flecha.png" alt="flecha"></a>
+            <a href="../screems/ver-cat-producto.html?cat=bombitas"><img class="flecha" src="../img/flecha.png" alt="flecha"></a>
         </div>        
     </section>    
     <section class="contenedor__producto" data-bombitas>        
@@ -59,7 +59,7 @@
         <h2 class="titulo__producto">Diverso</h2> 
         <div class="head__productos">
             <p class="ver__todos">Ver Todos</p>
-            <a href="#"><img class="flecha" src="../img/flecha.png" alt="flecha"></a>
+            <a href="../screems/ver-cat-producto.html?cat=diverso" ><img class="flecha" src="../img/flecha.png" alt="flecha"></a>
         </div>        
     </section>
     <section class="contenedor__producto" data-diverso>        
@@ -93,5 +93,6 @@
     </footer>  
     <script type="module" src="../controllers/producto-controller.js"></script>
     <script type="module" src="../controllers/ver-producto-controller.js"></script>
+   
 </body>
 </html>

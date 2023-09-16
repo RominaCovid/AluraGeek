@@ -5,8 +5,8 @@
       "cat": "bombitas",
       "name": "Bombas de los 7 Poderes",
       "precio": "$850",
-      "desc": "bombitas",
-      "id": 5
+      "desc": "Las bombitas de defumación son super prácticas para hacer tus limpiezas energéticas de manera rápida. Estas hierbas te conectan con la energía transformadora. Encendela cuando necesites purificar tu casa y movilizar tu energía.",
+      "id": 1
     },
     {
       "imagenUrl": "../img/bombitas/cintronela-naranja.png",
@@ -14,7 +14,7 @@
       "name": "Bombas de Cintronela y Naranja",
       "precio": "$850",
       "desc": "Repela los mosquitos. Y da tranquilidad combatiendo el stress ",
-      "id": 6
+      "id": 2
     },
     {
       "imagenUrl": "../img/bombitas/incienso.png",
@@ -22,7 +22,7 @@
       "name": "Bombas de Incienso",
       "precio": "$850",
       "desc": "bombitas",
-      "id": 7
+      "id": 3
     },
     {
       "imagenUrl": "../img/diverso/calendula.png",
@@ -30,7 +30,7 @@
       "name": "Hiervas de Calendula",
       "precio": "$650",
       "desc": "Hiervas de Caléndula es para ahumar el ambiente",
-      "id": 8
+      "id": 4
     },
     {
       "imagenUrl": "../img/diverso/carbon-defumador.png",
@@ -38,7 +38,7 @@
       "name": "Carbon Defumador",
       "precio": "$650",
       "desc": "Carbon defumador para",
-      "id": 9
+      "id": 5
     },
     {
       "imagenUrl": "../img/diverso/oleum-equilibrio.png",
@@ -46,12 +46,66 @@
       "name": "Oleum Equilibrio",
       "precio": "$650",
       "desc": "El oleum equilibrio es lo mejor para ",
-      "id": 10
+      "id": 6
+    },
+    {
+      "imagenUrl": "../img/sahumerio/champa.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Champa",
+      "precio": "$750",
+      "desc": "La combinanción de Palo Santo con la flor de Champa, unidos por primera vez en un sahumerio purifica y prepara espacios para la relajación y la meditación. Amor, paz, tranquilidad y armonía son los beneficios de usar este sahumerio sagrado.",
+      "id": 7
+    },
+    {
+      "imagenUrl": "../img/sahumerio/palo-copal.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Copal",
+      "precio": "$750",
+      "desc": "Forman un humo de purificación y sanación. Además es un imán para la atracción de la buena fortuna material y espiritual, por su conexión con lo divino.",
+      "id": 8
+    },
+    {
+      "imagenUrl": "../img/sahumerio/palo-inciencio.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Inciencio",
+      "precio": "$750",
+      "desc": "Actualmente el Palo Santo se utiliza, ya sea en su estado natural o como incienso, para fines energéticos ya que ayuda a limpiar y purificar el ambiente, creando una profunda sensación de armonía.",
+      "id": 9
     }
   ],
-  "usuario":{
-     "email":"alura@gmail.com",
-     "contrasenia":"alura",
-     "id":1
-  }
+  "usuario": {
+    "email": "alura@gmail.com",
+    "contrasenia": "alura",
+    "id": 1
+  },
+  "promocion":[
+    {
+      "imagenUrl": "../img/bombitas/7-poderes.png",
+      "cat": "bombitas",
+      "name": "Bombas de los 7 Poderes",
+      "precio": "$595",
+      "desc": "Las bombitas de defumación son super prácticas para hacer tus limpiezas energéticas de manera rápida. Estas hierbas te conectan con la energía transformadora. Encendela cuando necesites purificar tu casa y movilizar tu energía.",
+      "id": 1
+    },
+    {
+      "imagenUrl": "../img/sahumerio/palo-copal.png",
+      "cat": "sahumerio",
+      "name": "Palo Santo con Copal",
+      "precio": "$495",
+      "desc": "Forman un humo de purificación y sanación. Además es un imán para la atracción de la buena fortuna material y espiritual, por su conexión con lo divino.",
+      "id": 2
+    },
+    {
+      "imagenUrl": "../img/diverso/oleum-equilibrio.png",
+      "cat": "diverso",
+      "name": "Oleum Equilibrio",
+      "precio": "$429",
+      "desc": "El oleum equilibrio es lo mejor para ",
+      "id": 3
+    }
+
+
+  ]
+ 
+
 }
