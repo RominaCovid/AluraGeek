@@ -1,7 +1,7 @@
 {
   "producto": [
     {
-      "imagenUrl": "../img/bombitas/7-poderes.png",
+      "imagenUrl": "https://alura-geek-sahumerios-92qkpbtls-rominacovid.vercel.app/img/bombitas/7-poderes.png",
       "cat": "bombitas",
       "name": "Bombas de los 7 Poderes",
       "precio": "$890",
