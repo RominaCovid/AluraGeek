@@ -17,7 +17,7 @@ const nuevoProducto = (imagenUrl,name,precio,id) => {
 const seccionSahumerio = document.querySelector("[data-sahumerio]");
 //Agregar en seccion Sahumerio
 const productosSahumerio = () =>{
- return fetch("http://localhost:3000/producto?cat=sahumerio")
+ return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=sahumerio")
    .then(respuesta=> respuesta.json())
    .catch (error=>console.log("error"));
  
@@ -33,7 +33,7 @@ productosSahumerio()
  const seccionBombitas = document.querySelector("[data-bombitas");
  //Agregar en secccion Bombitas
  const productosBombitas = () =>{
-    return fetch("http://localhost:3000/producto?cat=bombitas")
+    return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=bombitas")
       .then(respuesta=> respuesta.json())
       .catch (error=>console.log("error"));
     
@@ -48,7 +48,7 @@ productosBombitas()
 const seccionDiverso = document.querySelector("[data-diverso]");
 //Agregar en seccion Diverso
 const productosDiverso = ()=>{
-    return fetch("http://localhost:3000/producto?cat=diverso")
+    return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=diverso")
         .then(respuesta=> respuesta.json())
       .catch (error=>console.log("error"));
 };

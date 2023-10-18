@@ -19,7 +19,7 @@ const cat = url.searchParams.get("cat");
 
 if (cat == "sahumerio"){
     const productosSahumerio = () =>{
-        return fetch("http://localhost:3000/producto?cat=sahumerio")
+        return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=sahumerio")
           .then(respuesta=> respuesta.json())
           .catch (error=>console.log("error"));
         
@@ -35,7 +35,7 @@ if (cat == "sahumerio"){
 
 if (cat == "bombitas"){
     const productosSahumerio = () =>{
-        return fetch("http://localhost:3000/producto?cat=bombitas")
+        return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=bombitas")
           .then(respuesta=> respuesta.json())
           .catch (error=>console.log("error"));
         
@@ -51,7 +51,7 @@ if (cat == "bombitas"){
 
 if (cat == "diverso"){
     const productosSahumerio = () =>{
-        return fetch("http://localhost:3000/producto?cat=diverso")
+        return fetch("hmi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=diverso")
           .then(respuesta=> respuesta.json())
           .catch (error=>console.log("error"));
         
