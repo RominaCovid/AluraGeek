@@ -2,11 +2,16 @@
   "name": "alurageek",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node api/server.js"
   },
   "keywords": [],
   "author": "Romina Retamoso",
-  "license": "ISC"
+  "license": "ISC",
+  "cors": "^2.8.5",
+  "json-server": "^18.16.1",
+  "dependencies": {
+    "json-serve": "^0.1.0"
+  }
 }
