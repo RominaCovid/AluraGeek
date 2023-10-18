@@ -47,7 +47,7 @@ const actualizarProducto = (imagenUrl,cat,name,precio,desc,id)=>{
 };
 
 const validarUsuario =()=>{
-    return fetch ("http://localhost:3000/usuario")
+    return fetch ("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/usuario")
      .then ((respuesta)=> respuesta.json());
 };
 
