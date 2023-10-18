@@ -51,7 +51,7 @@ if (cat == "bombitas"){
 
 if (cat == "diverso"){
     const productosSahumerio = () =>{
-        return fetch("hmi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=diverso")
+        return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto?cat=diverso")
           .then(respuesta=> respuesta.json())
           .catch (error=>console.log("error"));
         
