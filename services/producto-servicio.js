@@ -1,13 +1,13 @@
 //lista de procuto
 const listaProductos = () =>{
-    return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto")
+    return fetch("https://mi-repositorio-eight.vercel.app/producto")
     .then (respuesta => respuesta.json())
     .catch(error=>console.log("error"))
 };
 
 //escribe en el archivo db.json
 const crearProducto = (imagenUrl,cat,name,precio,desc)=>{
-    return fetch("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto",{
+    return fetch("https://mi-repositorio-eight.vercel.app/producto",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body: JSON.stringify({imagenUrl,cat,name,precio,desc})
@@ -24,22 +24,22 @@ const crearProducto = (imagenUrl,cat,name,precio,desc)=>{
 };
 //Para eliminar un Producto
 const eliminarProducto = (id) => {
-    return fetch(`mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto/${id}`,{ method:"DELETE"}); 
+    return fetch(`https://mi-repositorio-eight.vercel.app/producto/${id}`,{ method:"DELETE"}); 
 };
 
 //Para buscar un Producto
 const buscarProducto = (id)=>{
-      return fetch(`mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto/${id}`)
+      return fetch(`https://mi-repositorio-eight.vercel.app/producto/${id}`)
          .then((respuesta)=> respuesta.json());
 }; 
 
 const editarProducto = (id)=>{
-    return fetch (`mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto/${id}`)
+    return fetch (`https://mi-repositorio-eight.vercel.app/producto/${id}`)
       .then((respuesta) => respuesta.json());
 };
 
 const actualizarProducto = (imagenUrl,cat,name,precio,desc,id)=>{
-    return fetch (`mi-repositorio-imt6m8yhd-rominacovid.vercel.app/producto/${id}`,{
+    return fetch (`https://mi-repositorio-eight.vercel.app/producto/${id}`,{
         method:"PUT",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({imagenUrl,cat,name,precio,desc})
@@ -47,12 +47,12 @@ const actualizarProducto = (imagenUrl,cat,name,precio,desc,id)=>{
 };
 
 const validarUsuario =()=>{
-    return fetch ("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/usuario")
+    return fetch ("https://mi-repositorio-eight.vercel.app/usuario")
      .then ((respuesta)=> respuesta.json());
 };
 
 const productosPromocion = ()=>{
-    return fetch ("mi-repositorio-imt6m8yhd-rominacovid.vercel.app/promocion")
+    return fetch ("https://mi-repositorio-eight.vercel.app/promocion")
     .then ((respuesta)=> respuesta.json());
 
 };
