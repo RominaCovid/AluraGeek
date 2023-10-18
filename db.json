@@ -1,7 +1,7 @@
 {
   "producto": [
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/bombitas/7-poderes.png",
+      "imagenUrl": "../img/bombitas/7-poderes.png",
       "cat": "bombitas",
       "name": "Bombas de los 7 Poderes",
       "precio": "$890",
@@ -9,7 +9,7 @@
       "id": 1
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/bombitas/cintronela-naranja.png",
+      "imagenUrl": "../img/bombitas/cintronela-naranja.png",
       "cat": "bombitas",
       "name": "Bombas de Cintronela y Naranja",
       "precio": "$850",
@@ -17,7 +17,7 @@
       "id": 2
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/bombitas/incienso.png",
+      "imagenUrl": "../img/bombitas/incienso.png",
       "cat": "bombitas",
       "name": "Bombas de Incienso",
       "precio": "$850",
@@ -25,7 +25,7 @@
       "id": 3
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/diverso/calendula.png",
+      "imagenUrl": "../img/diverso/calendula.png",
       "cat": "diverso",
       "name": "Hiervas de Calendula",
       "precio": "$650",
@@ -33,7 +33,7 @@
       "id": 4
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/diverso/carbon-defumador.png",
+      "imagenUrl": "../img/diverso/carbon-defumador.png",
       "cat": "diverso",
       "name": "Carbon Defumador",
       "precio": "$650",
@@ -41,7 +41,7 @@
       "id": 5
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/diverso/oleum-equilibrio.png",
+      "imagenUrl": "../img/diverso/oleum-equilibrio.png",
       "cat": "diverso",
       "name": "Oleum Equilibrio",
       "precio": "$698",
@@ -49,7 +49,7 @@
       "id": 6
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/sahumerio/champa.png",
+      "imagenUrl": "../img/sahumerio/champa.png",
       "cat": "sahumerio",
       "name": "Palo Santo con Champa",
       "precio": "$750",
@@ -57,7 +57,7 @@
       "id": 7
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/sahumerio/palo-copal.png",
+      "imagenUrl": "../img/sahumerio/palo-copal.png",
       "cat": "sahumerio",
       "name": "Palo Santo con Copal",
       "precio": "$750",
@@ -65,7 +65,7 @@
       "id": 8
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/sahumerio/palo-inciencio.png",
+      "imagenUrl": "../img/sahumerio/palo-inciencio.png",
       "cat": "sahumerio",
       "name": "Palo Santo con Inciencio",
       "precio": "$750",
@@ -80,7 +80,7 @@
   },
   "promocion":[
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/bombitas/7-poderes.png",
+      "imagenUrl": "../img/bombitas/7-poderes.png",
       "cat": "bombitas",
       "name": "Bombas de los 7 Poderes",
       "precio": "$595",
@@ -88,7 +88,7 @@
       "id": 1
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/sahumerio/palo-copal.png",
+      "imagenUrl": "../img/sahumerio/palo-copal.png",
       "cat": "sahumerio",
       "name": "Palo Santo con Copal",
       "precio": "$495",
@@ -96,7 +96,7 @@
       "id": 2
     },
     {
-      "imagenUrl": "mi-repositorio-imt6m8yhd-rominacovid.vercel.app/img/diverso/oleum-equilibrio.png",
+      "imagenUrl": "../img/diverso/oleum-equilibrio.png",
       "cat": "diverso",
       "name": "Oleum Equilibrio",
       "precio": "$429",
